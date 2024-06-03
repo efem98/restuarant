@@ -1,0 +1,52 @@
+body{
+	background-color: black;
+}
+
+.contact{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.contact-right{
+	text-align: center;
+	
+}
+
+.contact-right h4{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.row1{
+	padding-left: 50px;
+	padding-top: 30px;
+}
+.headi h1{
+	text-align: center;
+padding-top:100px;
+font-size: 90px;
+}
+.fa-brands {
+	padding-bottom: 30px;
+	color: brown;
+}
+.fa-solid{
+	padding-bottom: 30px;
+	color: brown;
+}
+@media(max-width:1028px){
+	.headi h1{
+	
+		padding-top:50px;
+		font-size: 50px;
+}
+.row1{
+	padding-left: 0px;
+	
+}
+
+
+iframe{
+	width: 80%;
+}
+
+}

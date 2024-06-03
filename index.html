@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="shortcut icon" href="images/food1.jpg">
+	<title>DE restiro</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/unsemantic-grid-responsive-tablet.css">
+	<link rel="stylesheet" type="text/css" href="https://github.com/mattboldt/typed.js.git">
+	<link rel="stylesheet" type="text/css" href="css/firststyle.css">
+	 <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+	<!-- google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+  <!-- 
+    - preload images
+  -->
+  <!-- <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg"> -->
+
+
+</head>
+<body id="top">
+	
+ <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+   
+  </div>
+
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+     
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Daily : 8.00 am to 10.00 pm</span>
+      </div>
+
+      <a href="tel:+11234567890" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+70878883234</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:booking@restaurant.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">booking@restaurant.com</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+       <h1>DE Restiro</h1>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <h1 style= "width:160; height:50;">DE Restiro</h1>
+       
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="/" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="about.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Menus</span>
+            </a>
+          </li>
+
+       
+
+         
+          <li class="navbar-item">
+            <a href="contact.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contact</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">
+          De REstiro ,no 18 Lun street <br>
+            Nigeria
+          </address>
+
+          <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+
+          <a href="mailto:booking@grilli.com" class="body-4 sidebar-link">booking@deres.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Booking Request</p>
+
+          <a href="tel:+70878883234" class="body-1 contact-number hover-underline">
+            +70878883234
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="#" class="btn btn-secondary">
+        <span class="text text-1">Find A Table</span>
+
+        <span class="text text-2" aria-hidden="true">Find A Table</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-1.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Health & wealth</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Eat Healthy <br>live Healthy  <br>
+              
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Come with family & feel the joy of mouthwatering food
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal thebutton">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-2.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">delightful experience</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              pepper spice make up <br>
+              the Seasons
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Come with family & feel the joy of mouthwatering food
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-3.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">amazing & delicious</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Where every flavor <br>
+              tells a story
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Come with family & feel the joy of mouthwatering food
+            </p>
+
+            <a href="about.html" class="btn btn-primary slider-reveal ">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        <a href="#" class="hero-btn  has-after">
+          <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
+
+          <span class="label-2 text-center span">Book A Table</span>
+        </a>
+
+      </section>
+
+	<!-- MENU -->
+	
+	<div class="menu-one section service">
+		<div class="menu">
+			
+			<div class="menu-images">
+				<img src="images/meat1.jpg">
+			</div>
+				<div class="menu-images">
+				<img src="images/salad.jpg">
+			</div>
+			<div class="menu-images">
+				<img src="images/salami.jpg">
+			</div>
+			<div class="menu-images">
+				<img src="images/rice.jpg">
+			</div>
+
+		</div>
+				<button class="now">order now</button>
+
+				</div>
+					<div class="menu-template">
+
+						<div class="right-pane">
+
+							<h1>about</h1>
+							<h3>our restaurant</h3>
+
+							<h4>hours</h4>
+							<p>Sunday 		-12pm - 9pm</p>
+							<p>monday 		- 9am - 9pm</p>
+							<p>tuesday 		- 9am - 9pm</p>
+							<p>wednesday	- 9am - 9pm</p>
+							<p>thursday 	- 9am - 9pm</p>
+							<p>friday 		- 9am - 9pm</p>
+							<p>friday 		- 9am - 9pm</p>
+
+								<div class="phone">
+							<h4>phone</h4>
+								<p>+234-7087-888-325</p>
+								<p>+234-7087-888-325</p>
+
+								<button class="template-button">order now</button>
+								</div>
+						</div>
+
+						<div class="left-pane">
+							<h1>order</h1>
+							<h3>pickup & delivery</h3>
+
+							<h4>CONTACTLESS TAKE-OUT</h4>
+							<p>Top place an order,<br>
+							 please order via <a href="#">square</a></p>
+							 <button class="template-button">order now</button>
+
+							<h4>delivery Expanded</h4>
+							<p>To place an order for delivery, please choose from<br> one of our partners below:</p>
+							<a href="#">postmates</a>
+							<a href="#">grubhub</a>
+							<a href="#">Ubereats</a>
+							<a href="#">seamless</a>
+						</div>
+
+					</div>
+
+
+					<div class="reviews">
+						
+						<div class="card">
+							<div class ="blue" >
+								<a href="#">  <img src="./assets/images/features-icon-1.png"></a>
+								</div>
+								<h1>"It surpassed all my expectations!"</h1>
+								<p>The food looks like it has been prepared for a culinary magazine. While in New York City add Red Bamboo as a culinary experience. It will be a good place to take a date to or get together with some friends. You will not be disappointed.</p>
+
+						</div>
+
+						<div class="card">
+						<div class ="blue" >
+								<a href="#"><img src="./assets/images/features-icon-4.png"></a>
+								</div>
+							<h1>"Best vegetarian restaurant... EVER"</h1>
+							<p>I absolutely love this place. The Wings are the best things ever!!! I've been a veggie for 22 years now and never had wings, Philly Cheese steak etc so to get all this as a veggie option is fantastic! I go to this place every time I'm in New York :)</p>
+						</div>
+						
+						<div class="card">
+							<div class ="blue" >
+								<a href="#">  <img src="./assets/images/features-icon-2.png"></a>
+								</div>
+							<h1>"Delicious food, good prices"</h1>
+							<p>Very nice, cozy place. Service was good, food delicious and so much to choose from Wanna go there again . Good price, Good food, Cozy place and nice staff</p>
+						</div>
+						</div>
+					
+
+
+
+				<section class="three">
+					<div class="connect-image">
+						<h1>connect with us</h1>
+						<i><ion-icon name="logo-facebook"></ion-icon></i>
+						<i><ion-icon name="logo-instagram"></ion-icon></i>
+						<i><ion-icon name="logo-twitter"></ion-icon></i>
+					</div>
+				</section>
+
+				<section class="video">
+					<div class="grid-container">
+						<div class="grid-20 prefix-10 ">
+							<video controls>
+								<source src="videos/pepsi.mp4" type="video/mp4">
+								<!-- 	<div class="cont">
+								
+							</div> -->
+							</video>
+							<p class="cont">Hot burger served</p>
+							
+						</div>
+						<div class="grid-20 prefix-10 ">
+							<video controls>
+								<source src="videos/noodles.mp4" type="video/mp4">
+							</video>
+						</div>
+						<div class="grid-20 prefix-10 ">
+							<video controls>
+								<source src="videos/burger.mp4" type="video/mp4">
+							</video>
+						</div>
+						<div class="grid-20 prefix-10 ">
+							<video controls>
+								<source src="videos/food1.mp4" type="video/mp4">
+							</video>
+						</div>
+						<div class="grid-20 prefix-10 ">
+							<video controls>
+								<source src="videos/food.mp4" type="video/mp4">
+							</video>
+						</div>
+						<div class="grid-20 prefix-10 ">
+							<video controls>
+								<source src="videos/staff.mp4" type="video/mp4">
+							</video>
+						</div>
+					</div>
+					
+
+				</section>
+
+				<section class="electric-section">
+				<div class="electric">
+					<h2>ECLECTIC VEGAN CUISINE</h2>
+					<h1>SOY DELICIOUS</h1>
+				</div>
+				</section>
+
+				<!-- </div> -->
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+<footer>
+	<div class="address">
+	<h1>De Restiro</h1>
+	<p>16 jesus is Lord street ,Nigeria</p>
+	</div>
+
+	<div class="extra">
+	<li><a href="#">home </a></li>
+	<li><a href="#">Menus</a></li>
+	<li><a href="#">gift cards </a></li>
+	<li><a href="#">About</a></li>
+	<li><a href="#">contact </a></li>
+	<li><a href="#">press</a></li>
+</div>
+
+<div class="address">
+<p>&copy;De Restiro- All rights reserved</p>
+<p>web design by meweb agency</p>
+</div>
+
+</footer>
+
+
+
+ <!-- script tags -->
+    <script src="js/main.js" type="text/javascript">
+      
+    </script>
+    <script  src="js/typed.min.js" type="text/javascript"></script>
+    <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

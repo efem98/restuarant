@@ -1,0 +1,44 @@
+@media (max-width: 500px) {
+   
+
+    .text-box p{
+        max-width: 300px;
+        margin: 0px;
+        font-size: 15px;
+    }
+    .text-box h1{
+       
+       font-size: 20px;
+   }
+    .food-heading{
+        flex-wrap: wrap;
+    }
+    .foodslate-heading p{
+        font-size: 15px;
+        max-width: 300px;
+        margin: auto;
+    }
+   
+    #home nav ul li a{
+        color: tomato;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        padding-top: 20px;
+    }
+    /* @keyframes zoom-out{
+       
+} */
+#food-slate{
+    margin: 0px;
+}
+}
+@media (max-width: 900px){
+    /* .banner-container img{
+     width: auto;
+    } */
+    .text-box{
+        left: 0px;
+        padding-left: 30px;
+        padding-right: 25px; 
+    }
+}
