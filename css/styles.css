@@ -184,7 +184,7 @@ html{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
-
+	background-size: cover;
 
 }
 
@@ -337,11 +337,7 @@ footer h1{
 	padding-top: 50px;
 	
 }
-.connect-image{
-	height: 90vh;
-	
-	
-}
+
 .reviews{
 	padding-left: 20px;
 	padding-right: 25px; 
@@ -360,11 +356,29 @@ footer h1{
 		flex-wrap: nowrap;
     }
 	.extra {
-        margin-left:110px;
+        margin-left:150px;
     }
 	.menu-images img{
 		width: 400px;
 		height: auto;
+	}
+	.extra li a {
+		font-size: 13px;
+		display:flex;
+		justify-content:center;
+		align-items: center;
+	}
+	.electric{
+		padding-top: 200px;
+
+	}
+	.electric h2{
+		font-size: 2.5rem;
+	}
+	.connect-image{
+		height: 50vh;
+		
+		
 	}
 }
 
