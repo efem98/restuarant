@@ -242,7 +242,7 @@ footer{
 	text-transform: uppercase;
 }
 footer h1{
-	font-size: 20px;
+	font-size: 19px;
 }
 
 @media(max-width:1028px){
@@ -365,7 +365,7 @@ footer h1{
 		height: auto;
 	}
 	.extra li a {
-		/* font-size: 13px; */
+	
 		display:flex;
 		justify-content:center;
 		align-items: center;
