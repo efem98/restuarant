@@ -337,7 +337,11 @@ footer h1{
 	padding-top: 50px;
 	
 }
-
+.connect-image{
+	height: 90vh;
+	
+	
+}
 .reviews{
 	padding-left: 20px;
 	padding-right: 25px; 
@@ -348,7 +352,7 @@ footer h1{
 
 }
 
-@media(max-width:900px){
+@media(max-width:999px){
 	.now{
 		margin-left: 250px;
 	}
